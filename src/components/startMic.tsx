@@ -20,8 +20,10 @@ async function startMic() {
                 bytes[i] = (sample + 1) * 127.5;
             }
 
-            console.log('Audio bytes:', bytes);          
+            console.log('Audio bytes:', bytes);
+            
         }
+    
 
     } catch (error) {
         console.error('Microphone access denied:', error);
